@@ -51,23 +51,6 @@ An accessible dropdown component with keyboard navigation:
 - Node.js 18+ 
 - npm or yarn
 
-### Installation
-
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd react-micro-ui
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Start Storybook
-npm run storybook
-```
-
 ### Available Scripts
 
 ```bash
@@ -164,45 +147,6 @@ The project includes comprehensive testing setup:
 - **E2E Tests**: Using Playwright for integration testing
 - **Storybook Testing**: Interactive testing in Storybook
 - **Accessibility Testing**: Built-in a11y validation
-
-## 📁 Project Structure
-
-```
-react-micro-ui/
-├── src/
-│   ├── components/
-│   │   ├── Button/
-│   │   │   ├── Button.tsx
-│   │   │   ├── Button.css
-│   │   │   ├── Button.stories.tsx
-│   │   │   └── index.ts
-│   │   ├── Input/
-│   │   │   ├── Input.tsx
-│   │   │   ├── Input.css
-│   │   │   ├── Input.stories.tsx
-│   │   │   └── index.ts
-│   │   ├── Dropdown/
-│   │   │   ├── Dropdown.tsx
-│   │   │   ├── Dropdown.css
-│   │   │   ├── Dropdown.stories.tsx
-│   │   │   └── index.ts
-│   │   └── index.ts
-│   ├── App.tsx
-│   └── main.tsx
-├── public/
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-└── README.md
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
